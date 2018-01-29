@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5368dfdb-6c94-452d-a6bc-37ee46270477" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/Laratrust/AddRole.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Laratrust/AddRole.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +29,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ModuleServiceProvider.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ModuleServiceProvider.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ModuleServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
@@ -37,6 +37,24 @@
               <folding>
                 <element signature="e#41#80#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddRole.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Commands/Laratrust/AddRole.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddUser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Commands/Laravel/AddUser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="83" column="59" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -65,7 +83,6 @@
         <option value="$PROJECT_DIR$/src/Commands/ListUsers.php" />
         <option value="$PROJECT_DIR$/src/Commands/UserSearch.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/Commands/Laratrust/AddRole.php" />
         <option value="$PROJECT_DIR$/src/Commands/Laratrust/GiveRole.php" />
         <option value="$PROJECT_DIR$/src/Commands/Laratrust/ListRoles.php" />
         <option value="$PROJECT_DIR$/src/Commands/Laravel/AddUser.php" />
@@ -74,6 +91,7 @@
         <option value="$PROJECT_DIR$/src/helpers.php" />
         <option value="$PROJECT_DIR$/src/ModuleServiceProvider.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Commands/Laratrust/AddRole.php" />
       </list>
     </option>
   </component>
@@ -179,12 +197,12 @@
       <option name="presentableId" value="Default" />
       <updated>1517062920732</updated>
       <workItem from="1517062922551" duration="5370000" />
-      <workItem from="1517216387758" duration="86000" />
+      <workItem from="1517216387758" duration="1849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5456000" />
+    <option name="totallyTimeSpent" value="7219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1440" height="870" extended-state="6" />
@@ -255,13 +273,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Commands/Laravel/AddUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Commands/Laravel/ListUsers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -283,20 +294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Commands/Laratrust/AddRole.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ModuleServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -304,6 +301,27 @@
           <folding>
             <element signature="e#41#80#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Commands/Laravel/AddUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="83" column="59" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Commands/Laratrust/AddRole.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
         </state>
       </provider>
     </entry>
