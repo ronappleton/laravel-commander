@@ -47,7 +47,7 @@ class AddRole extends Command
             exit();
         }
 
-        $role = new (app()->getNamespace() . 'Role');
+        $role = new app()->getNamespace() . 'Role';
         $role->name = $input['name'];
         $role->display_name = $input['display_name'];
         $role->description = $input['description'];
