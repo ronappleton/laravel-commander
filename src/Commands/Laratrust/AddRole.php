@@ -16,6 +16,7 @@ class AddRole extends Command
     {display_name : Pretty name for role i.e. SuperAdmin}
     {description : The roles description}';
 
+    protected $model;
     /**
      * The console command description.
      *
@@ -31,7 +32,12 @@ class AddRole extends Command
     public function __construct()
     {
         parent::__construct();
+
+        $roleModel = app()->getNamespace() . 'Role';
+
+        $this->model = new $roleModel;
     }
+
 
     /**
      * Execute the console command.
@@ -41,14 +47,14 @@ class AddRole extends Command
         $input = $this->arguments();
         unset($input['command']);
 
-        if(Role::where('name', $input['name'])->exists())
+        if($this->model->where('name', $input['name'])->exists())
         {
             $this->warn("The role given ({$input['name']}) already exists");
             exit();
         }
 
-        $model = app()->getNamespace() . 'Role';
-        $role = new $model;
+        $role = $this->model;
+        
         $role->name = $input['name'];
         $role->display_name = $input['display_name'];
         $role->description = $input['description'];
