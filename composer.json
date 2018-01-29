@@ -1,0 +1,31 @@
+{
+    "name": "ronappleton/laravel-commander",
+    "description": "Adds extra commands to laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ron Appleton",
+            "email": "ron.appleton@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RonAppleton\\Commander\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RonAppleton\\Commander\\ModuleServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
+}

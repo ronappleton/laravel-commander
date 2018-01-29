@@ -1,6 +1,6 @@
 <?php
 
-namespace RonAppleton\Commander\Commands;
+namespace RonAppleton\Commander\Commands\Laratrust;
 
 use Illuminate\Console\Command;
 
