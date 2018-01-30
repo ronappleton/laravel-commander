@@ -54,7 +54,7 @@ class AddRole extends Command
         }
 
         $role = $this->model;
-        
+
         $role->name = $input['name'];
         $role->display_name = $input['display_name'];
         $role->description = $input['description'];
